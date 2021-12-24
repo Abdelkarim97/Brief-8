@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JS</title>
+</head>
+<body>
+	<div>
+		<input id="nameinput" type="text" placeholder = "Book Name"><br>
+		<p id="inputcheck1"></p>
+		<input id="authorinput" type="text" placeholder="Author Name"><br>
+		<p id="inputcheck2"></p>
+		<input id="priceinput" type="Number" placeholder="Price"><br>
+		<p id="inputcheck3"></p>
+		<input id="dateinput" type="date" placeholder="Release date"><br>
+		<p id="inputcheck4"></p>
+	<select id="languageinput"><br>	
+        <option disabled selected hidden value="">--Book Language--</option><br>
+        <option id="english">ENGLISH</option><br>
+        <option id="french" > FRENCH</option><br>
+        <option id="arabe"> ARABE</option><br>
+    </select><br>
+    <p id="inputcheck5"></p>
+        <input id ="emailinput" type="Email" placeholder="Author E-mail"><br>
+        <p id="inputcheck6"></p>
+		<button id="button" onclick="addToTable()">ADD</button>
+		<table border="1px">
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Author Name</th>
+					<th>Price</th>
+					<th>Release date</th>
+					<th>Langauge</th>
+					<th>Author email</th>
+				</tr>
+			</thead>
+			<tbody id=myTable>			
+			</tbody>
+		</table>
+
+	</div>
+	<script type="text/javascript" src="java.js"></script>
+
+</body>
+</html>
